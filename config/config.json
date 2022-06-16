@@ -1,0 +1,32 @@
+{
+	"test": {
+		"API_URL": "http://localhost:2525",
+		"DATABASE_DB": "yardimci_test",
+		"DATABASE_DIALECT": "mysql",
+		"DATABASE_HOST": "localhost",
+		"DATABASE_PASSWORD": "12345678",
+		"DATABASE_USER": "root",
+		"PORT": 2525,
+		"JWT_SECRET": "secret"
+	},
+	"development": {
+		"API_URL": "http://localhost:2525",
+		"DATABASE_DB": "yardimci",
+		"DATABASE_DIALECT": "mysql",
+		"DATABASE_HOST": "localhost",
+		"DATABASE_PASSWORD": "12345678",
+		"DATABASE_USER": "root",
+		"PORT": 2525,
+		"JWT_SECRET": "secret"
+	},
+	"production": {
+		"API_URL": "http://localhost:2525",
+		"DATABASE_DB": "yardimci",
+		"DATABASE_DIALECT": "mysql",
+		"DATABASE_HOST": "localhost",
+		"DATABASE_PASSWORD": "12345678",
+		"DATABASE_USER": "root",
+		"PORT": 2525,
+		"JWT_SECRET": "secret"
+	}
+}
